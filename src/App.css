@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#canvas {
+  display: grid;
+  grid-template-rows: repeat(100, 1vw);
+  grid-template-columns: repeat(100, 1vw);
+}
+
+#heading {
+  color: green;
+  font-size: 40px;
+  padding: 30px;
+  text-align: center;
+  line-height: 50px;
+}
+
+hr {
+  height: 5px;
+  width: 100vw;
+  background-color: white;
+  border: none;
+  margin: 20px 0px 0px 0px;
+}
+.button {
+  margin: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 0;
+  outline: none;
+  border: 3px solid green;
+  background-color: black;
+  color: green;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#btn-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cell {
+  width: 1vw;
+  height: 1vw;
+  border: solid 1px green;
+}
+
+a {
+  color: green;
+}
+
+p {
+  color: green;
+  line-height: 20px;
+  text-align: center;
+  margin: 0px 5px 20px 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #cont {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100vh;
+  }
+  .cell {
+    width: 15px;
+    height: 15px;
+  }
+
+  #canvas {
+    grid-template-rows: repeat(100, 15px);
+    grid-template-columns: repeat(100, 15px);
+  }
+
+  .button {
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0;
+    outline: none;
+    border: 3px solid green;
+    background-color: black;
+    color: green;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+}
