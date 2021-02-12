@@ -70,7 +70,7 @@ p {
   #cont {
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 100vh;
+    height: 200vh;
   }
   .cell {
     width: 15px;
@@ -83,7 +83,7 @@ p {
   }
 
   .button {
-    margin: 10px;
+    margin: 8px;
     padding: 5px 10px 5px 10px;
     border-radius: 0;
     outline: none;
@@ -91,7 +91,17 @@ p {
     background-color: black;
     color: green;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 40px;
   }
+#heading {
+  font-size: 28px;
+  padding: 20px;
+  line-height: 40px;
+}
+p {
+  line-height: 20px;
+  margin: 0px 5px 20px 5px;
+  font-size: 14px;
+}
 }
