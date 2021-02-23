@@ -63,7 +63,7 @@ const App: React.FC = () => {
       });
     });
 
-    setTimeout(runSimulation, 1);
+    setTimeout(runSimulation, 500);
   }, []);
 
   return (
@@ -75,7 +75,7 @@ const App: React.FC = () => {
       >
         <h1 id="heading">Conway's Game of Life</h1>
       </a>
-      <p>Click on the above link to know more. (its interesting, i promise)</p>
+      <p>Click the link above to know more. (its interesting, i promise)</p>
       <div id="btnCont">
         <button
           className="button"
