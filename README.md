@@ -5,6 +5,6 @@ Here is the Wikipedia article about [Conway's game of life](https://en.wikipedia
 Play with my simulation [here](https://gameoflife.samarthkulshrestha.me/)
 
 ## Licence
-Licenced under the ***DO WHATEVER THE FUCK YOU WANNA DO*** public licence
+Licensed under the ***DO WHATEVER THE FUCK YOU WANNA DO*** public licence.
 
 (c) Samarth Kulshrestha, 2021
